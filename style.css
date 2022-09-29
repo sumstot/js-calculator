@@ -1,0 +1,37 @@
+body {
+  background-color: #ccda87;
+}
+#calc-container {
+  height: 550px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: #bbbbbb;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#screen {
+  width: 320px;
+  height: 150px;
+  background-color: #d6ccc2;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+#button-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+}
+button:hover {
+  background-color: aqua;
+}
